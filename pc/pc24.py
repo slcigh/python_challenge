@@ -37,8 +37,6 @@ print(im.getpixel((637, 3)))
 print(im.getpixel((1, 640)))  # goal
 print(im.getpixel((635, 55)))
 print(im.getpixel((637, 55)))
-print(im.getpixel((637, 53)))
-print(im.getpixel((637, 54)))
 print(im.getpixel((636, 55)))
 """
 
@@ -54,3 +52,4 @@ from timeit import timeit
 
 print(timeit('bfs(im)', setup='from __main__ import bfs, im', number=1))
 """
+# test change
